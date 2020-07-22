@@ -3,13 +3,6 @@
 This is a collection of fairly advanced vim (popularly known as the 'vi editor') commands that make coding feel like a walk in the park. The default vi editor that comes pre-installed on most operating systems is probably not going to be adequate for using these commands. Please consider installing the latest stable version of the vim editor, preferably the gvim editor from [vim.org/download.php](https://www.vim.org/download.php)
 
 
-# Cursor motion keys
-
-```
-h,    j,  k,    l
-left, up, down, right
-```
-
 # Follow a link
 
 Position the cursor on the link and press:
