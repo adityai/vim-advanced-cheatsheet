@@ -1,6 +1,13 @@
 # vim advanced cheatsheet
 
-This is a collection of fairly advanced vim (popularly known as the 'vi editor') commands that make coding feel like a walk in the park. The default vi editor that comes pre-installed on most operating systems is probably not going to be adequate for using these commands. Please consider installing the latest stable version of the vim editor, preferably the gvim editor from [vim.org/download.php](https://www.vim.org/download.php)
+This is a collection of fairly advanced vim (popularly known as the 'vi editor') commands that make coding feel like a walk in the park. 
+
+**Important note:** 
+
+Please consider installing the latest stable version of the vim editor, preferably the gvim editor from [vim.org/download.php](https://www.vim.org/download.php)
+
+The default vi editor that comes pre-installed on most operating systems is probably not going to be adequate for using these commands. 
+
 
 
 # Follow a link
@@ -163,4 +170,15 @@ To move a chunk of text to the next file:
 ```
 dp # diff put
 ```
+
+## Patchmode to backup files when using gvimdiff
+
+The following vi editor command will enable automatic backup of the files being diff'ed (not a real english word).
+
+***Example**: a file named testfile.txt will be backed up as testfile.txt.old by gvimdiff*
+
+```
+:set patchmode=.old
+```
+**Note:** After editing code, one can perform a code inspection by diff'ing (ya, I said it!) the latest file against the .old file.
 
