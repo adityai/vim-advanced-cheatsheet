@@ -171,7 +171,7 @@ To move a chunk of text to the next file:
 dp # diff put
 ```
 
-## Patchmode to backup files when using gvimdiff
+## Patchmode to backup files when using vimdiff
 
 The following vi editor command will enable automatic backup of the files being diff'ed (not a real english word).
 
