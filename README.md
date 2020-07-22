@@ -150,7 +150,7 @@ If more than one word matches, the editor will display a list of words. Toggle t
 From the command prompt, execute:
 
 ```
-gvimdiff file1.txt file2.txt
+vimdiff file1.txt file2.txt
 ```
 
 The two files are opened side-by-side in the editor. 
