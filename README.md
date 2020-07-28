@@ -228,3 +228,10 @@ vim -S workspace.vim
 i}
 ```
 
+# Abbreviate
+
+```
+:abbreviate syso System.out.println(
+```
+
+In insert mode, type 'syso' followed by a space and syso will be replaced with System.out.println(
