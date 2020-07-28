@@ -227,3 +227,8 @@ vim -S workspace.vim
 ```
 i}
 ```
+
+# Auto completion
+
+Type the first part of the word: priv followed by Ctrl+p
+
