@@ -230,5 +230,5 @@ i}
 
 # Auto completion
 
-Type the first part of the word: priv followed by Ctrl+p
+Type the first part of the word followed by Ctrl+p
 
