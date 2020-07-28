@@ -188,7 +188,7 @@ Move the cursor to the specific '{' and press %
 
 ## Folding and unfolding
 
-In visual mode, select the lines of text to be folder, followed by zf to fold and zo to unfold
+In visual mode, select the lines of text to be folded, followed by zf to fold and zo to unfold
 
 # Saving a  workspace
 
