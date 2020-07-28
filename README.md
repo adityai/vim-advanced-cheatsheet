@@ -182,3 +182,31 @@ The following vi editor command will enable automatic backup of the files being 
 ```
 **Note:** After editing code, one can perform a code inspection by diff'ing (ya, I said it!) the latest file against the .old file.
 
+## Jump to matching curly brace, bracket, parantesis etc.
+
+Move the cursor to the specific '{' and press %
+
+## Folding and unfolding
+
+In visual mode, select the lines of text to be folder, followed by zf to fold and zo to unfold
+
+## Saving a  workspace
+
+### Saving a working set of files
+
+```
+:mksession workspace.vim
+```
+
+### Restoring the working set of files
+
+```
+:session workspace.vim
+```
+
+### Open thw workspace from command line
+
+```
+vim -S workspace.vim
+```
+
