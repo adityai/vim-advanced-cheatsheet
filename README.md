@@ -190,23 +190,40 @@ Move the cursor to the specific '{' and press %
 
 In visual mode, select the lines of text to be folder, followed by zf to fold and zo to unfold
 
-## Saving a  workspace
+# Saving a  workspace
 
-### Saving a working set of files
+## Saving a working set of files
 
 ```
 :mksession workspace.vim
 ```
 
-### Restoring the working set of files
+## Restoring the working set of files
 
 ```
 :session workspace.vim
 ```
 
-### Open thw workspace from command line
+## Open thw workspace from command line
 
 ```
 vim -S workspace.vim
 ```
 
+# Highlight search strings
+
+```
+:set hlsearch
+```
+
+# Incremental search
+
+```
+:set incsearch
+```
+
+# Select the inside block {}
+
+```
+i}
+```
