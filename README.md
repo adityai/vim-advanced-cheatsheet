@@ -204,7 +204,7 @@ In visual mode, select the lines of text to be folder, followed by zf to fold an
 :session workspace.vim
 ```
 
-## Open thw workspace from command line
+## Open the workspace from command line
 
 ```
 vim -S workspace.vim
