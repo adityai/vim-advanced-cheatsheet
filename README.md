@@ -222,6 +222,18 @@ vim -S workspace.vim
 :set incsearch
 ```
 
+# Fast searches
+## Quick search forward
+Search forward for the word at the cursor
+```
+*
+```
+## Quick saerch in reverse
+Search backward for the word at the cursor
+```
+#
+```
+
 # Select the inside block {}
 
 ```
