@@ -243,6 +243,11 @@ To look at the search history one at a time: press / to start another search and
 q/
 ```
 
+# Command history
+```
+:
+```
+
 # Select the inside block {}
 
 ```
