@@ -235,3 +235,28 @@ i}
 ```
 
 In insert mode, type 'syso' followed by a space and syso will be replaced with System.out.println(
+
+# Remove trailing whitespace
+Remove all white spaces at the end of the line.
+
+```
+:%s\s*$//
+```
+
+# Sorting lines
+In visual mode, select the lines that need to be sorted and execute the following:
+
+```
+:sort
+```
+
+## Case insensitive sort
+
+```
+:'<,>sort n
+```
+
+## Sort the whole file
+```
+:%sort
+```
