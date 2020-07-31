@@ -234,6 +234,15 @@ Search backward for the word at the cursor
 #
 ```
 
+# Search history
+To look at the search history one at a time: press / to start another search and use the up and down keys to look through the search history.
+
+## Display complete search history
+
+```
+q/
+```
+
 # Select the inside block {}
 
 ```
