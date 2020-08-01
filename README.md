@@ -198,13 +198,7 @@ In visual mode, select the lines of text to be folded, followed by zf to fold an
 :mksession workspace.vim
 ```
 
-## Restoring the working set of files
-
-```
-:session workspace.vim
-```
-
-## Open the workspace from command line
+## Open the saved workspace from command line
 
 ```
 vim -S workspace.vim
